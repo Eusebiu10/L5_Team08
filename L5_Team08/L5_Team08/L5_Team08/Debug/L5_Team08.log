@@ -1,0 +1,106 @@
+﻿  application.cpp
+  Auto.cpp
+  Controller.cpp
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(70,13): error C2079: 'fout' uses undefined class 'std::basic_fstream<char,std::char_traits<char>>'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(88,14): error C2677: binary '<<': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(89,34): error C2297: '<<': illegal, right operand has type 'const char [3]'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(89,34): error C2677: binary '<<': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(96,13): error C2079: 'fin' uses undefined class 'std::basic_fstream<char,std::char_traits<char>>'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(96,18): error C2079: 'fout' uses undefined class 'std::basic_fstream<char,std::char_traits<char>>'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(121,9): error C2672: 'getline': no matching overloaded function found
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(121,26): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(82): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(121,26): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(76): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(121,26): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(70): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(121,26): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(27): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(122,22): error C2079: 's' uses undefined class 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(122,29): error C2440: 'initializing': cannot convert from 'std::string' to 'int'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(122,23): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(124,16): error C2672: 'getline': no matching overloaded function found
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(124,37): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': expects 2 arguments - 3 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(82): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(124,37): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(76): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(124,37): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': expects 2 arguments - 3 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(70): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(124,37): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(27): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(138,26): error C2677: binary '<<': no global operator found which takes type '_Ty' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=std::string
+          ]
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(140,22): error C2677: binary '<<': no global operator found which takes type '_Ty' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=std::string
+          ]
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(168,13): error C2079: 'fin' uses undefined class 'std::basic_fstream<char,std::char_traits<char>>'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(168,18): error C2079: 'fout' uses undefined class 'std::basic_fstream<char,std::char_traits<char>>'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(217,9): error C2672: 'getline': no matching overloaded function found
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(217,26): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(82): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(217,26): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(76): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(217,26): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(70): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(217,26): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(27): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(218,22): error C2079: 's' uses undefined class 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(218,29): error C2440: 'initializing': cannot convert from 'std::string' to 'int'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(218,23): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(220,16): error C2672: 'getline': no matching overloaded function found
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(220,37): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': expects 2 arguments - 3 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(82): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(220,37): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(76): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(220,37): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': expects 2 arguments - 3 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(70): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(220,37): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string(27): message : see declaration of 'std::getline'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(229,26): error C2079: 'convert' uses undefined class 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>'
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(232,21): warning C4552: '<<': result of expression not used
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(243,26): error C2677: binary '<<': no global operator found which takes type '_Ty' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=std::string
+          ]
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(246,22): error C2677: binary '<<': no global operator found which takes type '_Ty' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=std::string
+          ]
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(255,26): error C2677: binary '<<': no global operator found which takes type '_Ty' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=std::string
+          ]
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Controller.cpp(259,22): error C2677: binary '<<': no global operator found which takes type '_Ty' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=std::string
+          ]
+  Repo.cpp
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Repo.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Repo.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Repo.cpp(60,17): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Repo.cpp(148,21): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Repo.cpp(145,6): warning C4101: 'i': unreferenced local variable
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Repo.cpp(204,20): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\Repo.cpp(222,20): warning C4018: '<': signed/unsigned mismatch
+  UI.cpp
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(177,39): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(194,39): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(205,39): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(218,35): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(246,39): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(263,39): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(274,39): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(286,35): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(323,39): warning C4018: '<': signed/unsigned mismatch
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(298,21): warning C4101: 'new_kilometer': unreferenced local variable
+A:\facultate\OOP\Lab\Lab5\L5_Team08\L5_Team08\L5_Team08\UI.cpp(299,21): warning C4101: 'new_preis': unreferenced local variable
+  Generating Code...
