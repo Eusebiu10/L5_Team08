@@ -1,0 +1,31 @@
+//tests();
+
+	int er, km, pr, le, i = 1;
+	string mo, ma, tr;
+
+	while (f >> mo)
+	{
+		f >> ma >> er >> km >> pr >> le >> tr;
+		repo.populate(mo, ma, er, km, pr, le, tr, i);
+		i++;
+	}
+
+
+	Controller service(repo);
+	UI ui(service);
+	ui.run();
+
+
+	/*vector<Auto> new_stoc;
+	vector<string> passwds;
+	passwds.push_back("passwd1k");
+	passwds.push_back("passwd2k");
+	Repo repo2(new_stoc, "passwd123", passwds);
+	while (f >> mo)
+	{
+		f >> ma >> er >> km >> pr >> le >> tr;
+		repo2.populate(mo, ma, er, km, pr, le, tr);
+	}
+	Controller service(repo2);
+	UI ui(service);
+	ui.run();*/
